@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "borana";
+  src: url(../Tangerine/Tangerine-Bold.ttf);
+}
+
+.mainbox {
+  height: 100vh;
+  background:
+    url("../img/frontpage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.name h1 {
+  color:#65443e;
+  font-size: 60px;
+  font-family: "borana", sans-serif;
+  padding-top: 5px;
+  padding-left: 10px;
+  position:absolute;
+}
+.shakti{
+  width: 65px;
+  height: 65px;
+  padding-left: 245px;
+  position: relative;
+  padding-top: 10px;
+  filter: drop-shadow(0px 0px  0px #120300);
+
+}
+
+.name h1 span {
+  padding-left: 45px;
+ font-size: 55px;
+}
+
+.Button{
+  padding-top: 280px;
+}
+
+.Sider{
+  margin-left: 190px;
+  margin-top: 15px;
+   width: 115px;
+  height: 32px;
+  background-color:#ab8179;
+  color: #fbeacc;
+  /* font-family: "borana", sans-serif; */
+  font-size: 15px;
+  border-radius: 3px;
+  
+}
+.Sider a {
+   color: #fbeacc;
+   text-decoration: none;
+  /* font-family: "borana", sans-serif; */
+}
+
+.logo {
+  padding-left: 220px;
+  padding-top: 20px;
+  font-size: 30px;
+  color:#fbeacc;
+  display: flex;
+  gap: 10px;
+}
+
+.logo i {
+  height: 33px;
+  width: 33px;
+  background-color: #b4867d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border: 1px solid black;
+   border-radius: 3px;
+}
+.logo a {
+   color: #fbeacc;
+   text-decoration: none;
+  font-family: "borana", sans-serif;
+}

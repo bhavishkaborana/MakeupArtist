@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.certified {
+  height: 98vh;
+  background: 
+    url("../img/sertificate.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+.crimg{
+  width: 100%;
+  height: 51vh;
+ }
+
+@font-face {
+  font-family: "borana";
+  src: url(../Tangerine/Tangerine-Bold.ttf);
+}
+
+.content{
+    color: rgb(230, 227, 224);
+    padding-top: 20px;
+    font-size: 10px;
+    padding-left: 12px;
+}
+
+.content a {
+  color: rgb(249, 230, 208);
+  cursor: pointer;
+}

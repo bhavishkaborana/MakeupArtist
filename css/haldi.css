@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.haldi {
+  height: 100vh;
+  background: 
+  linear-gradient(
+      90deg,
+       rgba(20, 5, 5, 0.500) 80%,
+      rgba(16, 17, 17, 0.551) 100%
+    ),
+    url("../img/haldi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+@font-face {
+  font-family: shakti;
+  src: url(../OleoScript-Regular.ttf);
+}
+
+.contant{
+    width: 80%;
+    height: 200px;
+    border: 5px solid rgb(250, 235, 194);
+    color: #f7cc57fc;
+    padding-left: 20px;  
+    position: relative;
+    top: 33%;
+    left: 5%;
+   
+}
+
+.contant h2{
+   padding-left: 18px;
+   padding-top: 10px;
+   font-size: 28px;
+   font-family: shakti,regular;
+}
+
+.contant p{
+    font-size: 15px;
+   color: rgb(225, 198, 164);
+
+}

@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.bridalpage {
+  height: 100vh;
+  background: 
+  linear-gradient(
+      90deg,
+           rgba(23, 0, 0, 0.627) 500%,
+      rgba(26, 25, 25, 0.106) 80%
+
+    ),
+    url("../img/bridalpage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+@font-face {
+  font-family: "borana";
+  src: url(../Tangerine/Tangerine-Bold.ttf);
+}
+
+h2{
+      font-family: borana,regular;
+      color: rgb(180, 176, 164);
+      padding-left: 23px;
+      padding-top: 15px;
+      font-size: 35px;
+}
+
+.contain{
+  color: aliceblue;
+
+}
+.contain h4{
+  color: rgb(236, 232, 219);
+  padding-top: 200px;
+  padding-left: 33px;
+  font-size: 23px;
+}
+
+.contain p{
+  padding-left: 15px;
+  font-size: 15px;
+  color: antiquewhite;
+}
+
+.contain ul {
+   color: rgb(245, 239, 232);
+  padding-left: 50px;
+  padding-top: 20px ;
+  list-style: none;
+}
+
+.contain ul h3 {
+  font-size: 22px;
+  padding-top: 10px;
+}
+.contain ul li {
+  padding-top: 10px;
+}

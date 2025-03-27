@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.mainbox {
+  height: 135vh;
+  background: 
+  linear-gradient(
+      90deg,
+      rgba(11, 11, 11, 0.527) 100%,
+      rgba(86, 91, 92, 0.30) 50%
+    ),
+    url("../img/sider.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "borana";
+  src: url(../Tangerine/Tangerine-Bold.ttf);
+}
+.h1{
+    color: #fef9b6;
+     font-family: "borana", sans-serif;
+     font-size: 45px;
+     padding-top: 50px;
+}
+.sider .h1 {
+  margin-top: -28px;
+}
+ul{
+    color: #f8f6df;
+    padding-top: 20px;
+    line-height: 1.5em;
+}
+
+.sider{
+    text-align: center;
+    
+}
+ul li{
+    font-size: 15px;
+    /* padding-top: 20px; */
+}
+
+p{
+    font-size: 12px;
+    color: #fdfbd4d2;
+}
+
+.only{
+  padding-top: 12px;
+  font-size: 19px;
+}
+
+.TandC {
+  color:#f8f6df;
+  padding-top: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid white;
+  width: 90%;
+  height: 90%;
+  margin: 10px auto;
+  padding: 10px 5px 0px 5px;
+  border-radius: 8px;
+  background: rgba(133, 124, 124, 0.348)
+}
+
+.box ul {
+  padding: 0;
+}
+
+.box ul li {
+  list-style: none;
+  font-size: 12px;
+  text-align: left;
+  margin: 5px 0;
+  color: #e1e1d3d2  ;
+  font-family: sans-serif;
+}

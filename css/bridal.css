@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.bridalimg {
+   height: 135vh;
+  background: 
+  linear-gradient(
+      90deg,  
+     rgba(11, 11, 11, 0.627) 100%,
+      rgba(16, 17, 17, 0.1056) 50%
+    ),
+    url("../img/bridal.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* position: absolute; */
+}
+
+@font-face {
+  font-family: shakti;
+  src: url(../OleoScript-Regular.ttf);
+}
+
+.pera{
+   color: #e9cd98;
+   font-size: 28px;
+   font-family: shakti,bold;
+    padding-left: 18px; 
+   padding-top: 35px; 
+   position: absolute;
+}
+.pera span{
+  font-size: 22px;
+}
+.functions{
+      padding-top: 220px; 
+      display: flex;
+      padding-left: 15px;
+}
+
+.functions ul li{
+  padding: 12px;
+  height: 25px;
+  list-style: none;
+
+}
+
+button{
+  height: 35px;
+   background-color: #cec67f77;
+   /* background-color: #088bbb77; */
+   /* border: 2px solid black; */
+  
+}
+
+button a{
+  text-decoration: none;
+  color: rgb(253, 255, 240);
+  font-weight: 700;
+}
+
+.TandC {
+  color: rgb(201, 199, 163);
+  padding-top: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid white;
+  width: 90%;
+  height: 43%;
+  margin: 10px auto;
+  padding: 0px 5px 5px 5px;
+  border-radius: 8px;
+  background: rgba(43, 43, 43, 0.081);
+  position: relative;
+}
+
+.box ul {
+  padding: 5px;
+}
+
+.box ul li {
+  list-style: none;
+  font-size: 15px;
+  text-align: left;
+  margin: 5px 0;
+  color: rgb(167, 155, 118);
+  padding: 3px;
+}
